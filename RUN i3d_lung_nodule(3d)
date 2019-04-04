@@ -1,0 +1,37 @@
+1 classes & 3 classes
+keras_retinanet/bin/train.py --step 10 --epoch 50 csv ../i3d_hdf5_lung_data/lung_nodule_annotation_Nodule32_Train.csv ../i3d_hdf5_lung_data/ClassID_1class.csv --val-annotations ../i3d_hdf5_lung_data/lung_nodule_annotation_Nodule32_Test.csv
+
+keras_retinanet/bin/train.py --step 10 --epoch 50 csv ../i3d_hdf5_lung_data/lung_nodule_annotation_threeclasses_32_Train.csv ../i3d_hdf5_lung_data/ClassID_3class.csv --val-annotations ../i3d_hdf5_lung_data/lung_nodule_annotation_threeclasses_32_Test.csv
+
+keras_retinanet/bin/train.py --step 20 --epoch 50 csv ../i3d_hdf5_lung_data/lung_nodule_annotation_Nodule32_Train.csv ../i3d_hdf5_lung_data/ClassID_1class.csv --val-annotations ../i3d_hdf5_lung_data/lung_nodule_annotation_Nodule32_Test.csv
+
+keras_retinanet/bin/train.py --step 20 --epoch 50 csv ../i3d_hdf5_lung_data/lung_nodule_annotation_threeclasses_32_Train.csv ../i3d_hdf5_lung_data/ClassID_3class.csv --val-annotations ../i3d_hdf5_lung_data/lung_nodule_annotation_threeclasses_32_Test.csv
+
+
+##### For 2D version
+keras_retinanet/bin/train.py --step 2 --epoch 5 csv ../i3d_dataset_OLD/LungNoduleRevision.csv ../i3d_dataset_OLD/ClassIDnew.csv --val-annotations ../i3d_dataset_OLD/LungNoduleRevision.csv
+
+#### For 3D version (rollover version)
+BATCH SIZE 64
+keras_retinanet/bin/train.py --step 187 --epoch 50 csv ../i3d_hdf5_lung_data/lung_nodule_annotation.csv ../i3d_hdf5_lung_data/ClassID.csv --val-annotations ../i3d_hdf5_lung_data/lung_nodule_annotation_testbatch.csv
+
+BATCH SIZE 32
+keras_retinanet/bin/train.py --step 374 --epoch 5 csv ../i3d_hdf5_lung_data/lung_nodule_annotation.csv ../i3d_hdf5_lung_data/ClassID.csv
+
+BATCH SIZE 16
+keras_retinanet/bin/train.py --step 748 --epoch 5 csv ../i3d_hdf5_lung_data/lung_nodule_annotation.csv ../i3d_hdf5_lung_data/ClassID.csv
+
+
+MAU EVAL??? TAMBAHIN INI DI BELAKANG
+--val-annotations ../i3d_hdf5_lung_data/lung_nodule_annotation_testbatch.csv
+
+TUGAS: PASTIIN 2D sampai jalan untuk eval baru ntar lanjut lagi
+
+
+keras_retinanet/bin/train.py --step 1 --epoch 5 csv ../i3d_hdf5_lung_data/lung_nodule_annotation_smallbatch.csv ../i3d_hdf5_lung_data/ClassID.csv --val-annotations ../i3d_hdf5_lung_data/lung_nodule_annotation.csv
+
+tmux
+tmux new -s lung
+tmux a -t lung
+ctrl+b --> d (minimize layer)
+ctrl+b --> [ (enable scrolling)
