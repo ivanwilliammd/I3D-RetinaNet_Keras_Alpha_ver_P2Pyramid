@@ -149,10 +149,10 @@ HDF5_File/KDC6-15113_Inspirat. Body 1.0_007,240,498,340,598,29,32,solid
 HDF5_File/KDC6-15113_Inspirat. Body 1.0_008,240,498,340,598,1,32,solid
 HDF5_File/KDC6-15113_Inspirat. Lung 1.0_007,240,498,340,598,29,32,solid
 HDF5_File/KDC6-15113_Inspirat. Lung 1.0_008,240,498,340,598,1,32,solid
-HDF5_File/KDC6-15116_Inspirat. Body 1.0_001,638,600,674,636,32,32,subsolid
+HDF5_File/KDC6-15116_Inspirat. Body 1.0_001,638,600,674,636,31,32,subsolid
 HDF5_File/KDC6-15116_Inspirat. Body 1.0_002,638,600,674,636,1,11,subsolid
 HDF5_File/KDC6-15116_Inspirat. Body 1.0_006,356,368,376,388,23,29,solid
-HDF5_File/KDC6-15116_Inspirat. Lung 1.0_001,638,600,674,636,32,32,subsolid
+HDF5_File/KDC6-15116_Inspirat. Lung 1.0_001,638,600,674,636,31,32,subsolid
 HDF5_File/KDC6-15116_Inspirat. Lung 1.0_002,638,600,674,636,1,11,subsolid
 HDF5_File/KDC6-15116_Inspirat. Lung 1.0_006,356,368,376,388,23,29,solid
 HDF5_File/KDC6-15453_Inspirat. Body 1.0_002,646,700,662,716,16,22,subsolid
@@ -258,7 +258,7 @@ HDF5_File/KDC6-15923_Inspirat. Lung 1.0_008,744,640,760,656,14,19,solid
 HDF5_File/KDC6-16071_Inspirat. Body 1.0_003,684,354,708,378,29,32,groundglass
 HDF5_File/KDC6-16071_Inspirat. Body 1.0_004,684,354,708,378,1,6,groundglass
 HDF5_File/KDC6-16071_Inspirat. Body 1.0_005,500,296,520,316,26,32,groundglass
-HDF5_File/KDC6-16071_Inspirat. Body 1.0_005,234,686,282,734,32,32,groundglass
+HDF5_File/KDC6-16071_Inspirat. Body 1.0_005,234,686,282,734,31,32,groundglass
 HDF5_File/KDC6-16071_Inspirat. Body 1.0_006,500,296,520,316,1,2,groundglass
 HDF5_File/KDC6-16071_Inspirat. Body 1.0_006,796,348,812,364,3,9,solid
 HDF5_File/KDC6-16071_Inspirat. Body 1.0_006,234,686,282,734,1,17,groundglass
@@ -270,7 +270,7 @@ HDF5_File/KDC6-16071_Inspirat. Body 1.0_009,816,390,888,462,4,30,solid
 HDF5_File/KDC6-16071_Inspirat. Lung 1.0_003,684,354,708,378,29,32,groundglass
 HDF5_File/KDC6-16071_Inspirat. Lung 1.0_004,684,354,708,378,1,6,groundglass
 HDF5_File/KDC6-16071_Inspirat. Lung 1.0_005,500,296,520,316,26,32,groundglass
-HDF5_File/KDC6-16071_Inspirat. Lung 1.0_005,234,686,282,734,32,32,groundglass
+HDF5_File/KDC6-16071_Inspirat. Lung 1.0_005,234,686,282,734,31,32,groundglass
 HDF5_File/KDC6-16071_Inspirat. Lung 1.0_006,500,296,520,316,1,2,groundglass
 HDF5_File/KDC6-16071_Inspirat. Lung 1.0_006,796,348,812,364,3,9,solid
 HDF5_File/KDC6-16071_Inspirat. Lung 1.0_006,234,686,282,734,1,17,groundglass
