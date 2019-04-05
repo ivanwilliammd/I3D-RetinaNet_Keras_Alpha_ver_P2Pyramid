@@ -43,7 +43,8 @@ class AnchorParameters:
 The default anchor parameters.
 """
 AnchorParameters.default = AnchorParameters(
-    sizes   = [32, 64, 128, 256, 512],
+    # sizes   = [32, 64, 128, 256, 512],
+    sizes   = [16, 32, 64, 128, 256, 512],
     strides = [8, 16, 32, 64, 128],
     # ratios  = np.array([0.5, 1, 2], keras.backend.floatx()),
     ratios  = np.array([1,], keras.backend.floatx()),
