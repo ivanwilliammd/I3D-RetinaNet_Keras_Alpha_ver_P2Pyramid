@@ -528,7 +528,7 @@ def main(args=None):
     #     rgb_model.get_layer('Conv3d_5b_0a_1x1').output])
 
     model= retinanet(inputs=img_input_ret, num_classes=num_classes, 
-        backbone_layers=[rgb_model.get_layer('Conv3d_2c_0a_1x1').output,
+        backbone_layers=[rgb_model.get_layer('Conv3d_2c_3x3').output,
         rgb_model.get_layer('Conv3d_3c_0a_1x1').output, 
         rgb_model.get_layer('Conv3d_4f_0a_1x1').output, 
         rgb_model.get_layer('Conv3d_5b_0a_1x1').output])
