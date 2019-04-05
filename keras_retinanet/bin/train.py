@@ -509,12 +509,12 @@ def main(args=None):
     # import IPython; IPython.embed()
     
     print('Loading I3D models.........')
-    # print(rgb_model.summary())
+    print(rgb_model.summary())
     
     
     # for layer in rgb_model.layers:
     #     print("Layer name: "+str(layer.name), "Input shape: "+str(layer.input_shape)+". Output shape: "+str(layer.output_shape))
-    # import IPython;IPython.embed()
+    import IPython;IPython.embed()
     
 
 
