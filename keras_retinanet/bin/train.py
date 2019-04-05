@@ -535,6 +535,7 @@ def main(args=None):
 
     print ("Retinanet+I3D model summary:")
     print(model.summary())
+    import IPython;IPython.embed()
     # for layer in model.layers:
     #     print("Layer name: "+str(layer.name), "Input shape: "+str(layer.input_shape)+". Output shape: "+str(layer.output_shape))
     
