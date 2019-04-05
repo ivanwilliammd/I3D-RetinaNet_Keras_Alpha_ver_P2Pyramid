@@ -301,8 +301,8 @@ def __create_pyramid_features(C2, C3, C4, C5, feature_size=256):
     P2 = keras.layers.Conv3D(feature_size, kernel_size=1, strides=1, padding='same', name='C2_reduced')(C2)
     # Upsample orginal P2 (16,256,256) --> (32,256,256)
     P2_upsize = keras.layers.Conv3DTranspose(feature_size, kernel_size=3, strides=(2, 1, 1), padding='same', name='P2_upsize')(P2)
-    P2 = keras.layers.Add(name='P3_merged')([P3_upsampled, P2_upsize])
-    P2 = keras.layers.Conv3D(feature_size, kernel_size=3, strides=1, padding='same', name='P3')(P2)
+    P2 = keras.layers.Add(name='P2_merged')([P3_upsampled, P2_upsize])
+    P2 = keras.layers.Conv3D(feature_size, kernel_size=3, strides=1, padding='same', name='P2')(P2)
 
     # "P6 is obtained via a 3x3 stride-2 conv on C5"
     P6 = keras.layers.Conv3D(feature_size, kernel_size=3, strides=2, padding='same', name='P6')(C5)
