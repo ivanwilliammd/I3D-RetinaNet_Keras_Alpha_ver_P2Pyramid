@@ -514,7 +514,7 @@ def main(args=None):
     
     # for layer in rgb_model.layers:
     #     print("Layer name: "+str(layer.name), "Input shape: "+str(layer.input_shape)+". Output shape: "+str(layer.output_shape))
-    import IPython;IPython.embed()
+    # import IPython;IPython.embed()
     
 
 
