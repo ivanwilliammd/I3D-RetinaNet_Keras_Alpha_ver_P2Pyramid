@@ -339,7 +339,7 @@ def __create_pyramid_features(C2, C3, C4, C5, feature_size=256):
     P7 = keras.layers.Conv3D(filters=1, activation="relu", name='P7_1x1', kernel_size=1)(P7)
     P7 = keras.layers.Permute((4, 1, 2, 3), name='P7_permute_2')(P7)
     
-    return [P3, P4, P5, P6, P7]
+    return [P2, P3, P4, P5, P6, P7]
 
 def default_submodels(num_classes, num_anchors):
     """ Create a list of default submodels used for object detection.
