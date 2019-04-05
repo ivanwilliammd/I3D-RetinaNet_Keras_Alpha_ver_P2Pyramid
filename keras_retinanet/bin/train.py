@@ -491,7 +491,7 @@ def main(args=None):
     train_generator, validation_generator = create_generators(args, backbone.preprocess_image)
     # import IPython; IPython.embed()
 
-    img_input_ret=img_input_retina(32, 512, 512, 3)
+    img_input_ret=img_input_retina(32, 1024, 1024, 3)
 
     from i3d_inception import Inception_Inflated3d  
     
