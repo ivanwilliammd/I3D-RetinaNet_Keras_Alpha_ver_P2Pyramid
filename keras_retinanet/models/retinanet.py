@@ -316,7 +316,7 @@ def __create_pyramid_features(C2, C3, C4, C5, feature_size=256):
     
     # # making z axis of P3-P7 to 1
     P2 = keras.layers.Permute((2, 3, 4, 1), name='P2_permute_1')(P2)
-    P2 = keras.layers.Conv3D(filters=1, activation="relu", name='P3_1x1', kernel_size=1)(P2)
+    P2 = keras.layers.Conv3D(filters=1, activation="relu", name='P2_1x1', kernel_size=1)(P2)
     P2 = keras.layers.Permute((4, 1, 2, 3), name='P2_permute_2')(P2)
 
     P3 = keras.layers.Permute((2, 3, 4, 1), name='P3_permute_1')(P3)
